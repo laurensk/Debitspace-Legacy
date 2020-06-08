@@ -1,4 +1,4 @@
-# Debitspace1
+# Debitspace
 
 ## About Debitspace
 Debitspace is an open-source accounting software made for education.
