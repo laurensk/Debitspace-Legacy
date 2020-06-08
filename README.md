@@ -1,27 +1,19 @@
 # Debitspace
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+## About Debitspace
+Debitspace is an open-source accounting software made for education.
 
-## Development server
+When Debitspace is done, students can easily create workspaces to accomplish various exercises and tasks in the accounting subject. Each workspace contains an entries list which makes it easy to add, edit and delete entries as well as an account table for each account created in a workspace.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Every workspace is stored in a client-side database and can easily be exported as a JSON-file to save your workspace even when you're switching to another computer or come back later.
+Exported workspaces can be imported back to Debitspace using the JSON-Importer as well as processed in third-party apps to enable even more features.
 
-## Code scaffolding
+You don't have to create an account or log-in in order to use Debitspace and all of its features. Since Debitspace is an open-source project, everyone is gladly invited to develop new features for this accounting software made for education!
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technology behind Debitspace
+Debitspace is completely developed using the Angular framework and the applied stylesheet format is CSS.
 
-## Build
+## Project Stage
+The project is currently under development and you can check the current progress of Debitspace by visiting https://beta.debitspace.org.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+A first version of the accounting table feature is already online, fully working and can be found at https://www.debitspace.org.
