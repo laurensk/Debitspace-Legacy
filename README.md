@@ -11,7 +11,7 @@ Exported workspaces can be imported back to Debitspace using the JSON-Importer a
 You don't have to create an account or log-in in order to use Debitspace and all of its features. Since Debitspace is an open-source project, everyone is gladly invited to develop new features for this accounting software made for education!
 
 ## Technology behind Debitspace
-Debitspace is completely developed using the Angular framework and the applied stylesheet format is CSS.
+Debitspace is completely developed using the Angular framework and the used stylesheet format is CSS.
 
 ## Project Stage
 The project is currently under development and you can check the current progress of Debitspace by visiting https://beta.debitspace.org.
