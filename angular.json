@@ -26,9 +26,9 @@
             "styles": [
               "src/styles.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "./src/app/core/theme/css/sb-admin-2.css",
-              "./src/app/core/theme/css/sb-admin-2.min.css",
-              "./src/app/core/theme/vendor/fontawesome-free/css/all.min.css"
+              "./node_modules/font-awesome/css/font-awesome.css",
+              "./src/app/core/theme/ds-theme.css",
+              "./src/app/core/theme/ds-theme.min.css"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",

@@ -1,84 +1,66 @@
 <!-- Sidebar -->
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-    <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" routerLink="/">
-      <div class="sidebar-brand-icon rotate-n-15">
-        <!-- <i class="fas fa-code"></i> -->
+  <!-- Sidebar - Brand -->
+  <a class="sidebar-brand d-flex align-items-center justify-content-center" routerLink="/">
+    <div class="sidebar-brand-icon rotate-n-15">
+      <!-- <i class="fas fa-code"></i> -->
+    </div>
+    <div class="sidebar-brand-text mx-3">
+      <div class="col">
+        <div>Debitspace</div>
       </div>
-      <div class="sidebar-brand-text mx-3">
-        <div class="col">
-          <div>Debitspace</div>
-        </div>
-      </div>
-    </a>
-
-    <!-- Divider -->
-    <hr class="sidebar-divider my-0">
-
-    <!-- Nav Item - Dashboard -->
-    <li class="nav-item active">
-      <a class="nav-link" routerLink="/">
-        <i class="fas fa-fw fa-home"></i>
-        <span>Workspaces</span></a>
-    </li>
-
-
-    <!-- Divider -->
-    <hr class="sidebar-divider">
-
-    <!-- Heading -->
-    <div class="sidebar-heading">
-      Informatics
     </div>
+  </a>
 
-    <!-- Informatics / Floating Bit -->
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/gallery/inf/floating-bit">
-        <i class="fas fa-fw fa-calculator"></i>
-        <span>Floating Bit</span></a>
-    </li>
+  <!-- When no section title is wanted use this as divider: -->
+  <!-- <hr class="sidebar-divider my-0"> -->
 
-    <!-- Divider -->
-    <hr class="sidebar-divider">
+  <!-- Divider -->
+  <hr class="my-0">
+  <hr class="sidebar-divider">
 
-    <!-- Heading -->
-    <div class="sidebar-heading">
-      Maths
-    </div>
+  <!-- Heading -->
+  <div class="sidebar-heading">
+    Debitspace
+  </div>
 
-    <!-- Copy a li form Informatics to create a menu entry -->
+  <!-- Nav Item - Workspaces -->
+  <li class="nav-item active">
+    <a class="nav-link" routerLink="/">
+      <i class="fa fa-fw fa-home"></i>
+      <span>Workspaces</span></a>
+  </li>
 
-    <!-- Nav Item - Tables -->
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/gallery/maths/cramer">
-        <i class="fas fa-fw fa-calculator"></i>
-        <span>Cramer Rule</span></a>
-    </li>
+  <!-- Nav Item - Settings -->
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/">
+      <i class="fa fa-fw fa-gear"></i>
+      <span>Settings</span></a>
+  </li>
 
-    <!-- Divider -->
-    <hr class="sidebar-divider d-none d-md-block">
 
-    <!-- Heading -->
-    <div class="sidebar-heading">
-      About
-    </div>
+  <!-- Divider -->
+  <hr class="sidebar-divider">
 
-    <!-- Copy a li form Informatics to create a menu entry -->
+  <!-- Heading -->
+  <div class="sidebar-heading">
+    Import/Export
+  </div>
 
-    <!-- Nav Item - Tables -->
-    <li class="nav-item">
-      <a class="nav-link" href="https://www.mysup.at/datenschutzerklaerung" target="_blank">
-        <i class="fas fa-fw fa-calculator"></i>
-        <span>Privacy Policy</span></a>
-    </li>
+  <!-- Import/Export / Export to JSON -->
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/gallery/inf/floating-bit">
+      <i class="fa fa-fw fa-arrow-up"></i>
+      <span>Export to JSON</span></a>
+  </li>
 
-    <!-- Nav Item - Tables -->
-    <li class="nav-item">
-      <a class="nav-link" href="https://www.mysup.at/impressum" target="_blank">
-        <i class="fas fa-fw fa-calculator"></i>
-        <span>Imprint</span></a>
-    </li>
+  <!-- Import/Export / Import from JSON -->
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/gallery/inf/floating-bit">
+      <i class="fa fa-fw fa-arrow-down"></i>
+      <span>Import from JSON</span></a>
+  </li>
 
-  </ul>
-  <!-- End of Sidebar -->
+</ul>
+<!-- End of Sidebar -->
