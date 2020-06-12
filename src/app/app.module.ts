@@ -12,6 +12,7 @@ import { ImportComponent } from './components/import/import.component';
 import { WorkspacesComponent } from './components/workspaces/workspaces.component';
 import { UnsupportedComponent } from './core/unsupported/unsupported.component';
 import { DebitspaceComponent } from './core/debitspace/debitspace.component';
+import { TobBarComponent } from './core/tob-bar/tob-bar.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DebitspaceComponent } from './core/debitspace/debitspace.component';
     ExportComponent,
     ImportComponent,
     UnsupportedComponent,
-    DebitspaceComponent
+    DebitspaceComponent,
+    TobBarComponent
   ],
   imports: [
     BrowserModule,
