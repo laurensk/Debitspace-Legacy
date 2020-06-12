@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
 
   checkScreenSize() {
     this.breakpointObserver
-      .observe([Breakpoints.Small, Breakpoints.HandsetPortrait])
+      .observe([Breakpoints.Small, Breakpoints.HandsetPortrait, Breakpoints.HandsetPortrait, Breakpoints.HandsetLandscape])
       .subscribe((state: BreakpointState) => {
         if (state.matches) {
           this.unsupported = true;
