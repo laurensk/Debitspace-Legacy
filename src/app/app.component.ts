@@ -9,8 +9,6 @@ import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/l
 })
 export class AppComponent implements OnInit {
   title = 'debitspace';
-
-  done = false;
   unsupported = false;
 
   constructor(private router: Router, public breakpointObserver: BreakpointObserver) { }
@@ -24,27 +22,11 @@ export class AppComponent implements OnInit {
       .observe([Breakpoints.Small, Breakpoints.HandsetPortrait])
       .subscribe((state: BreakpointState) => {
         if (state.matches) {
-          this.tooSmallDevice();
+          this.unsupported = true;
         } else {
-          this.startDebitspace();
+          this.unsupported = false;
         }
       });
-  }
-
-  startDebitspace() {
-    this.done = true;
-    this.unsupported = false;
-
-    if (this.router.url == "/") {
-      console.log(this.router.url);
-      this.router.navigateByUrl('/dashboard');
-    }
-
-  }
-
-  tooSmallDevice() {
-    this.done = true;
-    this.unsupported = true;
   }
 
 }

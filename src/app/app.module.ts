@@ -11,6 +11,7 @@ import { ExportComponent } from './components/export/export.component';
 import { ImportComponent } from './components/import/import.component';
 import { WorkspacesComponent } from './components/workspaces/workspaces.component';
 import { UnsupportedComponent } from './core/unsupported/unsupported.component';
+import { DebitspaceComponent } from './core/debitspace/debitspace.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { UnsupportedComponent } from './core/unsupported/unsupported.component';
     SettingsComponent,
     ExportComponent,
     ImportComponent,
-    UnsupportedComponent
+    UnsupportedComponent,
+    DebitspaceComponent
   ],
   imports: [
     BrowserModule,
