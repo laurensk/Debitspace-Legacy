@@ -1,4 +1,5 @@
 # Debitspace
+<img  src="https://imgur.com/hd7NY1X.png"/>
 
 ## About Debitspace
 Debitspace is an open-source accounting software made for education.
