@@ -25,23 +25,30 @@
     Debitspace
   </div>
 
+  <!-- Nav Item - Dashboard -->
+  <li [className]="activeLink == '/dashboard' ? 'nav-item active' : 'nav-item'">
+    <a class="nav-link" routerLink="/dashboard">
+      <i class="fa fa-fw fa-home"></i>
+      <span>Dashboard</span></a>
+  </li>
+
   <!-- Nav Item - Workspaces -->
-  <li class="nav-item active">
-    <a class="nav-link" routerLink="/">
+  <li [className]="activeLink == '/workspaces' ? 'nav-item active' : 'nav-item'">
+    <a class="nav-link" routerLink="/workspaces">
       <i class="fa fa-fw fa-home"></i>
       <span>Workspaces</span></a>
   </li>
 
   <!-- Nav Item - Language -->
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/">
+  <li [className]="activeLink == '/language' ? 'nav-item active' : 'nav-item'">
+    <a class="nav-link" routerLink="/language">
       <i class="fa fa-fw fa-globe"></i>
       <span>Language</span></a>
   </li>
 
   <!-- Nav Item - Settings -->
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/">
+  <li [className]="activeLink == '/settings' ? 'nav-item active' : 'nav-item'">
+    <a class="nav-link" routerLink="/settings">
       <i class="fa fa-fw fa-gear"></i>
       <span>Settings</span></a>
   </li>
@@ -55,15 +62,15 @@
   </div>
 
   <!-- Import/Export / Export to JSON -->
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/">
+  <li [className]="activeLink == '/export' ? 'nav-item active' : 'nav-item'">
+    <a class="nav-link" routerLink="/export">
       <i class="fa fa-fw fa-arrow-up"></i>
       <span>Export to JSON</span></a>
   </li>
 
   <!-- Import/Export / Import from JSON -->
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/">
+  <li [className]="activeLink == '/import' ? 'nav-item active' : 'nav-item'">
+    <a class="nav-link" routerLink="/import">
       <i class="fa fa-fw fa-arrow-down"></i>
       <span>Import from JSON</span></a>
   </li>
@@ -78,7 +85,7 @@
 
   <!-- Development / Clear Database -->
   <li class="nav-item">
-    <a class="nav-link" routerLink="/">
+    <a class="nav-link">
       <i class="fa fa-fw fa-trash"></i>
       <span>Clear Database</span></a>
   </li>

@@ -64,7 +64,25 @@
       <!-- Begin Page Content -->
       <div class="container-fluid">
 
-        <router-outlet></router-outlet>
+        <!-- Check if loading is done -->
+        <div *ngIf="done; else elseBlock">
+
+          <!-- If device is supported -->
+          <div *ngIf="!unsupported; else elseBlock">
+            <router-outlet></router-outlet>
+          </div>
+  
+          <!-- If device is not supported -->
+          <ng-template #elseBlock>
+            <app-unsupported></app-unsupported>
+          </ng-template>
+
+        </div>
+
+        <!-- If loading is not done -->
+        <ng-template #elseBlock>
+          <h1>Loading...</h1>
+        </ng-template>
 
       </div>
 
