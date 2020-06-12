@@ -1,4 +1,3 @@
-# Debitspace
 <img  src="https://imgur.com/03RqPa0.png"/>
 
 ## About Debitspace
