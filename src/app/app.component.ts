@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 
 @Component({
@@ -11,7 +10,7 @@ export class AppComponent implements OnInit {
   title = 'debitspace';
   unsupported = false;
 
-  constructor(private router: Router, public breakpointObserver: BreakpointObserver) { }
+  constructor(public breakpointObserver: BreakpointObserver) { }
 
   ngOnInit(): void {
     this.checkScreenSize();
