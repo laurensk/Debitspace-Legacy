@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WorkspacesService } from 'src/app/services/workspaces.service';
+import { WorkspaceService } from 'src/app/services/workspace.service';
 
 @Component({
   selector: 'app-workspaces',
@@ -8,9 +8,9 @@ import { WorkspacesService } from 'src/app/services/workspaces.service';
 })
 export class WorkspacesComponent implements OnInit {
 
-  private _service: WorkspacesService
+  private _service: WorkspaceService
 
-  constructor(service: WorkspacesService) {
+  constructor(service: WorkspaceService) {
     this._service = service;
   }
 

@@ -5,8 +5,8 @@ import { BaseService } from './base.service';
   providedIn: 'root'
 })
 
-export class WorkspacesService extends BaseService {
-  constructor() {
-    super();
-  }
+export class WorkspaceService extends BaseService {
+  
+  tableName = 'Workspace';
+
 }
