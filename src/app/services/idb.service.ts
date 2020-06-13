@@ -57,5 +57,3 @@ export const initJsStore = async () => {
     console.log("[DATABASE] Created");
   }
 };
-
-
