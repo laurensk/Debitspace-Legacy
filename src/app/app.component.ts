@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
+import { initJsStore } from './services/idb.service';
 
 @Component({
   selector: 'app-root',
@@ -24,8 +25,18 @@ export class AppComponent implements OnInit {
           this.unsupported = true;
         } else {
           this.unsupported = false;
+          this.initDb();
         }
       });
+  }
+
+  async initDb() {
+    try {
+      await initJsStore();
+      console.log("[DATABASE] initJsStore");
+    } catch (error) {
+      console.log(error.message);
+    }
   }
 
 }

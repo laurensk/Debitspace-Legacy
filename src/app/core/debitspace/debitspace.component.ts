@@ -19,7 +19,6 @@ export class DebitspaceComponent implements OnInit {
     this.done = true;
 
     if (this.router.url == "/") {
-      console.log(this.router.url);
       this.router.navigateByUrl('/dashboard');
     }
 

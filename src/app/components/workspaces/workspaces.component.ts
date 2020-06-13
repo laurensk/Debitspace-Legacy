@@ -8,7 +8,7 @@ import { WorkspaceService } from 'src/app/services/workspace.service';
 })
 export class WorkspacesComponent implements OnInit {
 
-  private _service: WorkspaceService
+  private _service: WorkspaceService;
 
   constructor(service: WorkspaceService) {
     this._service = service;

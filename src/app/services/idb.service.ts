@@ -45,7 +45,7 @@ const getDatabase = () => {
 
   const dataBase: IDataBase = {
     name: dbname,
-    tables: []
+    tables: [] // create a workspace table in order to pass it here.
   };
   return dataBase;
 };
@@ -54,7 +54,7 @@ export const initJsStore = async () => {
   const dataBase = getDatabase();
   const isDbCreated = await idbCon.initDb(dataBase);
   if (isDbCreated) {
-    // db created
+    console.log("[DATABASE] Created");
   }
 };
 

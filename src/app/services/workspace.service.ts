@@ -9,4 +9,10 @@ export class WorkspaceService extends BaseService {
   
   tableName = 'Workspace';
 
+  getWorkspaces() {
+    return this.connection.select<any>({
+      from: this.tableName
+    });
+  }
+
 }
