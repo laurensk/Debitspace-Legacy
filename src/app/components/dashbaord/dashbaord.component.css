@@ -1,0 +1,19 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 60%;
+}
+
+.logo {
+    padding-bottom: 1em;
+    height: 12em;
+}

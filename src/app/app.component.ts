@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
   async initDb() {
     try {
       await initJsStore();
-      console.log("[DATABASE] initJsStore");
+      console.log("[DATABASE] Database 'Debitspace' initialized");
     } catch (error) {
       console.log(error.message);
     }
