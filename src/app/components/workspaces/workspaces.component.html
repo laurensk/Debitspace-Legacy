@@ -1,11 +1,19 @@
-<app-tob-bar></app-tob-bar>
+<div style="height: 100vh;">
+    <app-tob-bar></app-tob-bar>
 
-<div class="container-fluid">
-    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Workspaces</h1>
-    </div>
+    <div class="container-fluid">
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Workspaces</h1>
+        </div>
 
-    <div>
-        <p>Workspace Workspace Workspace</p>
+        <div class="wor-container">
+
+            <div class="wor-box" *ngFor="let number of [0,1,2,3,4,5,6,7,8,9,10,11,12,13]">
+                <div class="wor-workspace">
+                </div>
+            </div>
+            
+        </div>
+
     </div>
 </div>
