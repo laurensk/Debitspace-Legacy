@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+.debitspace-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.debitspace-full-sheet {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.debitspace-sheet-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.debitspace-sheet-inner {
+    height: 100%;
+    width: 100%;
+}
