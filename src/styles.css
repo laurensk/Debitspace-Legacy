@@ -27,3 +27,36 @@
     height: 100%;
     width: 100%;
 }
+
+.debitspace-nav-title {
+    padding-left: 20px;
+    color: #5a5c69;
+    font-weight: 500;
+    font-size: 1.50rem;
+}
+
+.debitspace-nav-buttons {
+    padding-left: 3em;
+}
+
+.ds-nav-btn-container {
+    padding-right: 10px;
+}
+
+.debitspace-nav-button {
+    background-color: whitesmoke !important;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.debitspace-nav-button:after {
+    padding-right: 100px;
+}
+
+.ds-nav-btn-text {
+    padding-left: 0.5em;
+}
+
