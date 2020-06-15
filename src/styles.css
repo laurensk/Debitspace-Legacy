@@ -50,6 +50,11 @@
     padding: 12px 16px;
     font-size: 16px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.ds-nav-btn:hover {
+    background-color: #e8e8e8 !important;
 }
 
 .ds-nav-btn-text {
