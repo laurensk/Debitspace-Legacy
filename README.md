@@ -17,3 +17,6 @@ Debitspace is completely developed using the Angular framework and the used styl
 The project is currently under development and you can check the current progress of Debitspace by visiting https://beta.debitspace.org.
 
 A first version of the accounting table feature is already online, fully working and can be found at https://www.debitspace.org.
+
+## Note
+Development of Debitspace is paused temporarily due to my personal time limits.
